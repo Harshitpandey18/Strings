@@ -22,7 +22,7 @@ def printTable():
             while True:
                 try:
                     val=str(input())
-                except ValueError:
+                except:
                     print("Enter a string")
                     continue
                 break
